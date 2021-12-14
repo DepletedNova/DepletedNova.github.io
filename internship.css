@@ -49,10 +49,10 @@
 
     .Icon {
         height: auto;
-        width: 15%;
+        width: 25%;
         display: block;
         margin-left: auto;
-        margin-right: 5%;
+        margin-right: auto;
 	float: none;
     }
 }
