@@ -1,0 +1,65 @@
+@media screen and (min-width: 750px) and (orientation : landscape) {
+    .Box {
+        width: 60%;
+        padding: 5%;
+        margin: auto;
+        background: #FFFBEF;
+        color: black;
+        font-size: 10;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        display: display;
+    }
+    
+    .Quoted {
+        border-radius: 25px;
+        background: #391F46;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-style: italic;
+    }
+
+    .Icon {
+        height: auto;
+        width: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 750px), screen and (orientation : portrait) {
+    .Box {
+        width: 90%;
+        padding: 5%;
+        margin: auto;
+        background: #FFFBEF;
+        color: black;
+        font-size: 10;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        display: display;
+    }
+    
+    .Quoted {
+        border-radius: 15px;
+        background: #391F46;
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-style: italic;
+    }
+}
+
+.Heading {
+    text-align: center;
+}
+
+body {
+    background-image: url("background.png");
+    background-color: #FFCDCD;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
