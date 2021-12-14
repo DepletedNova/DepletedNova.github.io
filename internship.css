@@ -1,60 +1,83 @@
 @media screen and (min-width: 750px) and (orientation : landscape) {
     .Box {
         width: 60%;
-        padding: 5%;
+        padding: 5px;
         margin: auto;
-        background: #FFFBEF;
+        background: white;
         color: black;
         font-size: 10;
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         display: display;
     }
-    
-    .Quoted {
-        border-radius: 25px;
-        background: #391F46;
-        width: 40%;
-        margin: auto;
-        text-align: center;
-        color: white;
-        font-style: italic;
-    }
+	
+	.Spacer {
+		width: 54%;
+		background-color: #FFCDCD;
+		height: 10px;
+		margin: 0px auto;
+	}
 
     .Icon {
         height: auto;
-        width: 35%;
+        width: 15%;
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 20%;
+		float: right;
     }
 }
-@media (max-width: 750px), screen and (orientation : portrait) {
+@media (max-width: 700px), screen and (orientation : portrait) {
     .Box {
         width: 90%;
         padding: 5%;
         margin: auto;
-        background: #FFFBEF;
+        background: white;
         color: black;
         font-size: 10;
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         display: display;
     }
-    
-    .Quoted {
-        border-radius: 15px;
-        background: #391F46;
-        width: 75%;
-        margin: auto;
-        text-align: center;
-        color: white;
-        font-style: italic;
+	
+	.Spacer {
+		width: 81%;
+		background-color: #FFCDCD;
+		height: 10px;
+		margin: 0px auto;
+	}
+
+    .Icon {
+        height: auto;
+        width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: 5%;
     }
+}
+
+#Quote {
+	margin: 6px auto;
+	background-color: #391F46;
+	border-radius: 5px;
+	width: 65%;
+	color: white;
+	text-align: center;
+}
+
+.Quote {
+	text-align: center;
+	color: white;
+	font-style: italic;
 }
 
 .Heading {
     text-align: center;
+}
+
+.MarginHeading {
+	text-align: right;
+	margin-right: 10%;
 }
 
 body {
@@ -62,4 +85,17 @@ body {
     background-color: #FFCDCD;
     background-size: cover;
     background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	font-size: 18px;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;
 }
